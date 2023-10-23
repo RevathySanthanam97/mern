@@ -1,5 +1,4 @@
 const UserModel = require('../models/userModel');
-const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 
 const createToken = (_id) => {
